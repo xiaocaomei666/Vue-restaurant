@@ -1,0 +1,151 @@
+let home = {
+  name: 'home',
+  data () {
+    return {
+      activeName: 'order',
+      tableData: [{
+        goodsName: '可口可乐',
+        price: 8,
+        count: 1
+      }, {
+        goodsName: '香辣鸡腿堡',
+        price: 15,
+        count: 1
+      }, {
+        goodsName: '爱心薯条',
+        price: 8,
+        count: 1
+      }, {
+        goodsName: '甜筒',
+        price: 8,
+        count: 1
+      }],
+      oftenGoods: [
+        {
+          goodsId: 1,
+          name: '香辣鸡腿堡 ￥18元',
+          goodsName: '香辣鸡腿堡',
+          price: 18,
+          type: 'success'
+        }, {
+          goodsId: 2,
+          name: '田园鸡腿堡 ￥15元',
+          goodsName: '田园鸡腿堡',
+          price: 15,
+          type: 'warning'
+        }, {
+          goodsId: 3,
+          name: '和风汉堡 ￥15元',
+          goodsName: '和风汉堡',
+          price: 15,
+          type: ''
+        }, {
+          goodsId: 4,
+          name: '快乐全家桶 ￥80元',
+          goodsName: '快乐全家桶',
+          price: 80,
+          type: 'success'
+        }, {
+          goodsId: 5,
+          name: '脆皮炸鸡腿 ￥10元',
+          goodsName: '脆皮炸鸡腿',
+          price: 10,
+          type: 'danger'
+        }, {
+          goodsId: 6,
+          name: '魔法鸡块 ￥20元',
+          goodsName: '魔法鸡块',
+          price: 20,
+          type: 'warning'
+        }, {
+          goodsId: 7,
+          name: '可乐大杯 ￥10元',
+          goodsName: '可乐大杯',
+          price: 10,
+          type: 'info'
+        }, {
+          goodsId: 8,
+          name: '雪顶咖啡 ￥18元',
+          goodsName: '雪顶咖啡',
+          price: 18,
+          type: 'danger'
+        }, {
+          goodsId: 9,
+          name: '大块鸡米花 ￥15元',
+          goodsName: '大块鸡米花',
+          price: 15,
+          type: 'warning'
+        }, {
+          goodsId: 20,
+          name: '香脆鸡柳 ￥17元',
+          goodsName: '香脆鸡柳',
+          price: 17,
+          type: 'success'
+        }
+      ],
+      activeFood: 'hamberger',
+      typeGoods: [
+        {
+          goodsId: 1,
+          goodsImg: 'http://7xjyw1.com1.z0.glb.clouddn.com/pos001.jpg',
+          goodsName: '香辣鸡腿堡',
+          price: 18
+        }, {
+          goodsId: 2,
+          goodsImg: 'http://7xjyw1.com1.z0.glb.clouddn.com/pos002.jpg',
+          goodsName: '田园鸡腿堡',
+          price: 15
+        }, {
+          goodsId: 3,
+          goodsImg: 'http://7xjyw1.com1.z0.glb.clouddn.com/pos004.jpg',
+          goodsName: '和风汉堡',
+          price: 15
+        }, {
+          goodsId: 4,
+          goodsImg: 'http://7xjyw1.com1.z0.glb.clouddn.com/pos003.jpg',
+          goodsName: '快乐全家桶',
+          price: 80
+        }, {
+          goodsId: 5,
+          goodsImg: 'http://7xjyw1.com1.z0.glb.clouddn.com/pos003.jpg',
+          goodsName: '脆皮炸鸡腿',
+          price: 10
+        }, {
+          goodsId: 6,
+          goodsImg: 'http://7xjyw1.com1.z0.glb.clouddn.com/pos004.jpg',
+          goodsName: '魔法鸡块',
+          price: 20
+        }, {
+          goodsId: 7,
+          goodsImg: 'http://7xjyw1.com1.z0.glb.clouddn.com/pos001.jpg',
+          goodsName: '可乐大杯',
+          price: 10
+        }, {
+          goodsId: 8,
+          goodsImg: 'http://7xjyw1.com1.z0.glb.clouddn.com/pos003.jpg',
+          goodsName: '雪顶咖啡',
+          price: 18
+        }, {
+          goodsId: 9,
+          goodsImg: 'http://7xjyw1.com1.z0.glb.clouddn.com/pos002.jpg',
+          goodsName: '大块鸡米花',
+          price: 15
+        }, {
+          goodsId: 20,
+          goodsImg: 'http://7xjyw1.com1.z0.glb.clouddn.com/pos002.jpg',
+          goodsName: '香脆鸡柳',
+          price: 17
+        }
+      ]
+    }
+  },
+  methods: {
+    deleteGood () {
+
+    },
+    addGood () {
+
+    }
+  }
+}
+export default home

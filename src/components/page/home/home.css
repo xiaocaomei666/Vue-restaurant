@@ -1,0 +1,69 @@
+.home {
+  background-color: #fff;
+}
+
+.home,
+.el-row,
+.el-col,
+.home-left,
+.home-right {
+  height: 100%;
+}
+
+.home-left {
+  padding: 13px;
+  border-right: 1px solid #eff2f7;
+}
+
+.home-right {
+  background-color: #fff;
+}
+
+.title {
+  height: 28px;
+  line-height: 28px;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #e4e7ed;
+  font-size: 17px;
+}
+
+.content-right,
+.content-bottom {
+  padding: 15px;
+}
+
+.content-right > span {
+  margin: 10px;
+}
+
+.image {
+  width: 100%;
+  display: block;
+}
+
+.bottom {
+  margin-top: 10px;
+  line-height: 12px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: '';
+}
+
+.time {
+  font-size: 13px;
+  color: #999;
+}
+
+.button {
+  padding: 0;
+  float: right;
+}
+
+.clearfix:after {
+  clear: both;
+}

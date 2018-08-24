@@ -36,7 +36,7 @@
 .left-nav {
   color: #fff;
   font-size: 10px;
-  height: 100%;
+  height: 92%;
   background-color: rgb(34, 45, 50);
   float: left;
   width: 7%;
