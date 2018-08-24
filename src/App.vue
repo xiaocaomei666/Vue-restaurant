@@ -33,6 +33,26 @@ export default {
   background-color: #eff2f7;
   height: 100%;
   box-sizing: border-box;
-  overflow: auto;
+  overflow: hidden;
+}
+.mt20{
+  margin-top: 20px;
+}
+
+.mr20{
+  margin-right:20px;
+}
+
+.mb20{
+  margin-bottom: 20px;
+}
+
+.p10{
+  padding:10px;
+}
+
+/* tab切换 */
+.el-tabs__item{
+   font-size: 17px;
 }
 </style>
